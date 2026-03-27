@@ -1,31 +1,21 @@
-# Task Manager Application
+# Project Blueprint
 
 ## Overview
 
-This is a Task Manager application built with Next.js and Firebase. It allows users to manage their tasks, organize them into projects, and collaborate with team members.
+This document outlines the structure, features, and design of the employee work logging application.
 
-## Features
+## Current Implementation
 
-*   **Task Management:** Create, edit, delete, and track tasks.
-*   **Project Organization:** Group tasks into projects for better organization.
-*   **Team Collaboration:** Invite team members to projects and assign tasks.
-*   **Real-time Updates:** Changes are reflected in real-time for all users.
-*   **Authentication:** Secure user authentication with Firebase.
-*   **Dashboard:** An overview of all tasks and projects.
-*   **Responsive Design:** The application is designed to work on all devices.
+### Features
 
-## Design
+*   **Work Logging Page:** A single page application that allows employees to log their work.
+*   **Date Picker:** A date input field to select the date of the work log.
+*   **Backlog Selection:** A dropdown menu to select a task from the backlog.
+*   **Working Hours Input:** A number input field to enter the number of hours worked.
+*   **Submit Button:** A button to submit the work log form.
 
-*   **UI Components:** The application uses a custom UI library with components like `Button`, `Card`, and `Sidebar`.
-*   **Styling:** The application is styled with Tailwind CSS.
-*   **Icons:** The application uses custom SVG icons.
-*   **Layout:** The application has a sidebar for navigation and a main content area for displaying the current page.
+### Design
 
-## Current Plan
-
-I am currently working on adding Firebase to the project. The next steps are:
-
-1.  Initialize Firebase in the project.
-2.  Set up Firebase Authentication.
-3.  Create a Firestore database to store tasks and projects.
-4.  Implement real-time updates with Firestore.
+*   **Styling:** The page is styled using Tailwind CSS.
+*   **Layout:** The form is centered on the page for a clean and focused user experience.
+*   **Color Scheme:** A simple and clean color scheme is used, with a white background and blue accents.
